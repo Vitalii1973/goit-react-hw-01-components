@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* Зробить контейнер повнорозмірним на висоту сторінки */
+  background-color: #c0baba;
+  /* Додайте колір фону, якщо потрібно */
+}

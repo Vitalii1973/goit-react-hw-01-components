@@ -5,7 +5,7 @@ function FriendList({ friends }) {
   return (
     <ul className="friend-list">
       {friends.map(friend => (
-        <li key={friend.id} className="item">
+        <li key={friend.id} className="friend-list-item">
           <span
             className={`status ${friend.isOnline ? 'online' : 'offline'}`}
           ></span>
